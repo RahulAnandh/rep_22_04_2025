@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width: 600px) {
+  input,
+  select {
+    width: 90vw;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  input,
+  select {
+    width: 50vw;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  input,
+  select {
+    width: 50vw;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  input {
+    width: 40vw;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  select {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  input {
+    width: 40vw;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  select {
+    width: 30vw;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

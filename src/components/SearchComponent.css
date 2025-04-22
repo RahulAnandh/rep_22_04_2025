@@ -1,0 +1,13 @@
+.search-box {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+.clear-button {
+  background-color: rgb(255, 98, 0);
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
