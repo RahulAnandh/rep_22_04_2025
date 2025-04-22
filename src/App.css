@@ -36,6 +36,10 @@
     transform: rotate(360deg);
   }
 }
+input,
+select {
+  border-radius: 5px;
+}
 @media screen and (max-width: 600px) {
   input,
   select {
@@ -76,7 +80,7 @@
     margin-bottom: 10px;
   }
   select {
-    width: 100px;
+    width: 150px;
     height: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -93,7 +97,7 @@
   }
 
   select {
-    width: 30vw;
+    width: 150px;
     height: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
